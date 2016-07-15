@@ -18,6 +18,7 @@
   <scripts name="scripts">
     <script>scripts\scr_move.gml</script>
     <script>scripts\scr_grid_place_meeting.gml</script>
+    <script>scripts\scr_save_room.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_level</object>
