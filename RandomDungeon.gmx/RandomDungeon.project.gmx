@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_hero</sprite>
+    <sprite>sprites\spr_enemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -19,10 +20,12 @@
     <script>scripts\scr_move.gml</script>
     <script>scripts\scr_grid_place_meeting.gml</script>
     <script>scripts\scr_save_room.gml</script>
+    <script>scripts\scr_get_path_to_point.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_level</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_room1</room>
