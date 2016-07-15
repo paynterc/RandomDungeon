@@ -32,6 +32,9 @@ var vspd = (keyboard_check(vk_down) - keyboard_check(vk_up)) * spd;
 
 // Move
 scr_move(hspd, vspd);
+
+//set the depth so it can overlap wall tiles
+depth=-y;
 </string>
           </argument>
         </arguments>
